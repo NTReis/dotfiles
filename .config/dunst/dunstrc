@@ -1,0 +1,78 @@
+[global]
+    monitor = 0
+    follow = mouse
+    #width = 300
+    #height = 350
+    origin = top-right
+    offset = (20,20)
+    geometry = "0x0-30+20"
+    scale = 0
+    notification_limit = 0
+    progress_bar = true
+    progress_bar_height = 2
+    progress_bar_frame_width = 0
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    indicate_hidden = yes
+    transparency = 0
+    separator_height = 2
+    padding = 8
+    horizontal_padding = 8
+    text_icon_padding = 0
+    frame_width = 3
+    separator_color = auto
+    sort = yes
+    idle_threshold = 120
+    font = Monospace 10
+    line_height = 0
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = center
+    vertical_alignment = center
+    show_age_threshold = 60
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    icon_position = left
+    min_icon_size = 0
+    max_icon_size = 32
+    sticky_history = yes
+    history_length = 20
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/firefox
+    always_run_script = true
+    title = notification
+    class = Dunst
+    ignore_dbusclose = false
+    force_xwayland = false
+    force_xinerama = false
+    mouse_left_click = do_action
+    mouse_right_click = close_current
+    mouse_middle_click = close_all
+    shrink=no
+    word_wrap = yes
+    verbosity = mesg 
+    corner_radius=3
+
+[experimental]
+    per_monitor_dpi = false
+
+[urgency_low]
+    background = "#282a36"
+    foreground = "#F8F8F2"
+    frame_color = "#e0d5ed"
+    timeout = 5
+
+[urgency_normal]
+    background = "#282a36"
+    foreground = "#F8F8F2"
+    frame_color = "#e0d5ed"
+    timeout = 5
+
+[urgency_critical]
+    background = "#282a36"
+    foreground = "#F8F8F2"
+    frame_color = "#BD93F9"
+    timeout = 120

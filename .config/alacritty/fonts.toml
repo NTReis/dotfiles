@@ -1,0 +1,19 @@
+[font]
+size = 10
+
+[font.normal]
+family = "monospace"
+style = "Medium"
+
+[font.bold]
+style = "Bold"
+
+[font.bold_italic]
+style = "Bold Italic"
+
+[font.italic]
+style = "Italic"
+
+[font.offset]
+x = 0
+y = 0
