@@ -1,1 +1,1 @@
-Dotfiles for my custom desktop :D
+First try trying to rice my arch linux :D
